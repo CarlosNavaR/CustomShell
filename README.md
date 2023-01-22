@@ -7,13 +7,13 @@ Este repositorio es creado con la intención de tener una guía para replicar la
 
 # Requisitos
 
-[X] [Git](https://git-scm.com/downloads)
-[X] [VsCode](https://code.visualstudio.com/)
+- [X] [Git](https://git-scm.com/downloads)
+- [X] [VsCode](https://code.visualstudio.com/)
 
 # Enlaces importante ⚠
 
-[X] [OhMyPosh](https://ohmyposh.dev/docs/)
-[X] [NerdFonts](https://www.nerdfonts.com/)
+- [X] [OhMyPosh](https://ohmyposh.dev/docs/)
+- [X] [NerdFonts](https://www.nerdfonts.com/)
 
 # Instalación 💾
 Existen diversas formas de instalar esta herramienta, el flujo que se siguió es por medio de la terminal (powershell).
