@@ -73,6 +73,28 @@ Para solucionar este problema solo es requerido dar click derecho sobre el nombr
 
 Una vez realizado todo esto tendremos lista nuestra terminal personalizada, ahora es cuestión de que tan personalizada queremos nuestra terminal, ya que se puede realizar configuración manualmente u optar por un tema ya definido [Temas](https://ohmyposh.dev/docs/themes).
 
+4.- Configurar tema
+La documentación te ofrece una lista de temas predefinidos o por otro lado es cuestión de configurar el archivo que te genera el siguiente comando
+
+```bash
+  oh-my-posh config export --output ~/.mytheme.omp.json
+```
+Genera en su directorio raíz un archivo json con su configuración actual donde pueden copiar y pegar el código de los [Temas](https://ohmyposh.dev/docs/themes) que proporciona la documentación o bien editar el archivo y personalizar los elementos necesarios.
+
+Solo queda repuntar la dirección del archivo personalizado en la configuración del .bashrc
+
+Configuración actual
+
+```bash 
+    eval "$(oh-my-posh init bash)"
+```
+
+Nueva configuración
+
+
+```bash 
+  eval "$(oh-my-posh init bash --config ~/filename.omp.json)"
+```
 
 `Buz 👩‍🚀`
 
